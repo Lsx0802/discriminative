@@ -541,7 +541,7 @@ lr = 1e-4
 ds = 64
 t_step = 10001
 dr = 0.92
-batch_size = 40
+batch_size = 32
 
 data_ = []
 for i in range(1, 10):
