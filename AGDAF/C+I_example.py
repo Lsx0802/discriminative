@@ -30,7 +30,7 @@ def get_inputOp(filename, batch_size, capacity):
     return data, label
 
 
-batch_size = 40
+batch_size = 32
 
 DMQ_Axial_dataTrain, DMQ_Axial_labelTrain = get_inputOp(
     "/home/public/june29/2D/DMQ/Axial/" + i + "/Train.tfrecords",
